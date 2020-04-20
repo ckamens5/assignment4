@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+    margin:0;
+    color:rgb(178, 188, 105);
+}
+
+
+#crossoversheading{
+    color:red;
+}
+h1{
+    color:rgb(178, 188, 105);
+    font-family: fantasy  
+}
+h2{
+    color:#9dcc7b;
+    font-family:fantasy;
+}
+
+@media screen and (max-width 50rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    form-input, textarea {
+        margin: 2px 0; 
+    }
+}
+
+#arrowgreen {
+    color: rgb(00,40,00);
+        
+    border: 5px solid #903d3d;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px; 
+    padding-left: 15px;
+    
+    border-radius: 15px;
+    
+}
+
+.arrowgreen {
+    background-color:rgb(13,47,23);
+    color:rgb(178, 188, 105);
+}
+
+.flashred{
+    background-color:rgb(85,00,00);
+}
+
+.supergirlblue{
+    background-color: darkblue
+}
+
+.legendsbackground{
+    background-color:darkslateblue;
+}
+
+.batwomenbackground{
+    background-color: black
+}
+
+.crossovertextcolor{
+    color:yellow
+}
+
+.supergirlheading{
+    color:deepskyblue 
+}
+
+.centercontainer{
+    margin-left: auto;
+    margin-right: auto; 
+    width:50%
+}
+
+.headercolor a{
+    color:deeppink
+}
