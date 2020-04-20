@@ -48,7 +48,8 @@ a:hover {
     .container3, 
     header, 
     main, 
-    footer {
+    footer,
+    form p {
         flex-direction: column;
     }    
 }
@@ -81,3 +82,23 @@ a:hover {
 .supergirlheading{
     color:deepskyblue 
 }
+
+form p{
+    display: flex;
+    margin-bottom:auto;
+}
+
+form label{
+   flex-basis: 33%;
+}
+
+form input textarea, select{
+    flex(1);
+    margin: (0)(1pm);
+    border-radius: 1pm; 
+}
+
+form select{
+    text-align: left
+}
+
