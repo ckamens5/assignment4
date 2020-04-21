@@ -89,13 +89,7 @@ form p{
 }
 
 form label{
-   flex-basis: 33%;
-}
-
-form input textarea, select{
-    flex(1);
-    margin: (0)(1pm);
-    border-radius: 1pm; 
+   flex-basis: 8%;
 }
 
 form select{
